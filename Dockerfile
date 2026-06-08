@@ -56,4 +56,4 @@ RUN mkdir -p storage/framework/cache/data \
 EXPOSE 80
 
 # Start the application using PHP's built-in server as requested
-CMD php artisan config:clear && php artisan cache:clear && php artisan serve --host=0.0.0.0 --port=$PORT
+CMD php artisan migrate --force && php artisan config:clear && php artisan cache:clear && php artisan serve --host=0.0.0.0 --port=$PORT
