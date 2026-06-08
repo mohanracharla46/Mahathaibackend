@@ -8,6 +8,18 @@ echo "Starting Apache on port $PORT..."
 sed -i "s/Listen 80/Listen $PORT/g" /etc/apache2/ports.conf
 sed -i "s/<VirtualHost \*:80>/<VirtualHost *:$PORT>/g" /etc/apache2/sites-available/000-default.conf
 
+# Ensure storage and bootstrap directories have correct permissions at runtime
+# (Resolves access issues if persistent volumes/disks are mounted)
+echo "Setting runtime permissions for storage and bootstrap/cache..."
+chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
+chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache
+
+# Generate APP_KEY if not set in the environment or in the .env file
+if [ -z "$APP_KEY" ] && ! grep -q "^APP_KEY=base64:" /var/www/html/.env; then
+    echo "Generating new encryption key..."
+    php artisan key:generate --force
+fi
+
 # Wait for database if host is specified (useful during cold boots)
 if [ -n "$DB_HOST" ]; then
   echo "Allowing database ($DB_HOST) 5 seconds to initialize..."
