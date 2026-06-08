@@ -37,8 +37,8 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 # Copy project files
 COPY . .
 
-# Copy environment example
-RUN cp .env.example .env
+# Copy environment file (use production config if available, otherwise fallback to example)
+RUN cp .env.production .env || cp .env.example .env
 
 # Install dependencies (ignoring dev dependencies for production optimization)
 RUN composer install --no-dev --optimize-autoloader --no-interaction
@@ -56,4 +56,4 @@ RUN mkdir -p storage/framework/cache/data \
 EXPOSE 80
 
 # Start the application using PHP's built-in server as requested
-CMD ["sh", "-c", "if [ -z \"$APP_KEY\" ] && ! grep -q \"^APP_KEY=base64:\" .env; then php artisan key:generate --force; fi && php artisan migrate --force && php artisan config:clear && php artisan cache:clear && php artisan serve --host=0.0.0.0 --port=$PORT"]
+CMD ["sh", "-c", "mkdir -p database && touch database/database.sqlite && chmod -R 777 database && if [ -z \"$APP_KEY\" ] && ! grep -q \"^APP_KEY=base64:\" .env; then php artisan key:generate --force; fi && php artisan migrate --force && php artisan db:seed --force && php artisan config:clear && php artisan cache:clear && php artisan serve --host=0.0.0.0 --port=$PORT"]

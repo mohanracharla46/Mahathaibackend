@@ -1,0 +1,1660 @@
+{
+  "Appetizers": [
+    {
+      "id": "app-edamame",
+      "name": "Steamed Salted Edamame",
+      "description": "Plump green soybeans steamed in their pods, tossed with coarse sea salt, offering a light, clean, and nutritious starter.",
+      "price": 8,
+      "rating": 4.7,
+      "image": "Edamame .png"
+    },
+    {
+      "id": "app-spring-rolls",
+      "name": "Crispy Spring Rolls",
+      "description": "Crispy golden wrappers filled with seasoned glass noodles, cabbage, carrots, and wood ear mushrooms, served with sweet chili sauce.",
+      "price": 12,
+      "rating": 4.8,
+      "image": "Crispy Spring Rolls (veg  shrimp  chicken).png"
+    },
+    {
+      "id": "app-maha-rolls",
+      "name": "Crunchy Maha Rolls",
+      "description": "Signature deep-fried rolls filled with premium crab meat, cream cheese, and scallions, served with a sweet-and-sour plum glaze.",
+      "price": 15,
+      "rating": 4.9,
+      "image": "Crunchy Maha Rolls.png"
+    },
+    {
+      "id": "app-firecracker-shrimp",
+      "name": "Firecracker Shrimp",
+      "description": "Jumbo prawns marinated in garlic and coriander, wrapped in crispy spring roll pastry, and served with a spicy honey-plum sauce.",
+      "price": 16,
+      "rating": 4.9,
+      "image": "Firecracker Shrimp.png"
+    },
+    {
+      "id": "app-garden-rolls",
+      "name": "Fresh Garden Rolls",
+      "description": "Refreshing rice paper rolls packed with crisp lettuce, cucumber, mint, sweet basil, and vermicelli, served with house peanut dipping sauce.",
+      "price": 11,
+      "rating": 4.7,
+      "image": "Fresh Garden Rolls.png"
+    },
+    {
+      "id": "app-fried-tofu",
+      "name": "Golden Fried Tofu",
+      "description": "Crispy organic tofu cubes, golden-fried until airy, served with sweet tamarind sauce topped with crushed roasted peanuts.",
+      "price": 10,
+      "rating": 4.7,
+      "image": "Golden Fried Tofu.png"
+    },
+    {
+      "id": "app-crab-bites",
+      "name": "Maha Crispy Crab Bites",
+      "description": "Bite-sized crispy pouches stuffed with blue crab meat, cream cheese, and Thai spices, served with a roasted chili garlic dip.",
+      "price": 14,
+      "rating": 4.8,
+      "image": "Maha Crispy Crab Bites.png"
+    },
+    {
+      "id": "app-dumplings",
+      "name": "Pan-Seared Dumplings",
+      "description": "Handmade dumplings with seasoned chicken, pork, or vegetables, pan-seared until bottom is crispy, served with ginger-soy vinegar.",
+      "price": 13,
+      "rating": 4.8,
+      "image": "Pan-Seared Dumplings (chicken  pork  veg).png"
+    },
+    {
+      "id": "app-shrimp-toast",
+      "name": "Shrimp Toast",
+      "description": "Crispy toasted brioche topped with a savory minced shrimp spread and white sesame seeds, served with sweet cucumber relish.",
+      "price": 14,
+      "rating": 4.8,
+      "image": "Shrimp Toast .png"
+    },
+    {
+      "id": "app-satay-skewers",
+      "name": "Street Satay Skewers",
+      "description": "Tender flame-grilled skewers of marinated chicken or tofu, served with signature creamy peanut sauce and fresh cucumber pickle.",
+      "price": 14,
+      "rating": 4.9,
+      "image": "Street Satay Skewers (chicken  spicy chicken ≡ƒî╢∩╕Å  tofu).png"
+    },
+    {
+      "id": "app-vietnamese-rolls",
+      "name": "Vietnamese Fresh Rolls",
+      "description": "Traditional summer rolls with delicate rice paper, steamed shrimp, pork, fresh mint, and lettuce, paired with rich hoisin peanut sauce.",
+      "price": 12,
+      "rating": 4.8,
+      "image": "Vietnamese Fresh Rolls.png"
+    }
+  ],
+  "Salads": [
+    {
+      "id": "salad-som-tum",
+      "name": "Green Papaya Crunch (Som Tum Thai)",
+      "description": "Hand-shredded green papaya hammered with fresh lime juice, palm sugar, birdΓÇÖs eye chilies, garlic, green beans, cherry tomatoes, and roasted peanuts.",
+      "price": 15,
+      "rating": 4.8,
+      "image": "Green Papaya Crunch (Som Tum Thai).png"
+    },
+    {
+      "id": "salad-som-tum-poo",
+      "name": "Som Tum Poo",
+      "description": "Authentic Isan-style papaya salad containing salted black crab for a rich, deeply savory umami punch, mixed with fresh herbs and spices.",
+      "price": 17,
+      "rating": 4.7,
+      "image": "Som Tum Poo.png"
+    },
+    {
+      "id": "salad-som-tum-poo-plara",
+      "name": "Som Tum Poo Plara",
+      "description": "Traditional street-style green papaya salad loaded with salted black crab and house-fermented fish sauce (Plara) for the ultimate bold flavor.",
+      "price": 18,
+      "rating": 4.8,
+      "image": "Som Tum Poo Plara.png"
+    },
+    {
+      "id": "salad-larb",
+      "name": "Northern Larb Herb Salad",
+      "description": "Aromatic minced chicken, pork, or tofu salad tossed with toasted ground rice, mint, fresh coriander, scallions, shallots, and lime-chili dressing.",
+      "price": 16,
+      "rating": 4.8,
+      "image": "Northern Larb Herb Salad .png"
+    },
+    {
+      "id": "salad-yum-woon-sen",
+      "name": "Glass Noodle Seafood Salad (Yum Woon Sen)",
+      "description": "Vibrant glass noodles tossed with jumbo shrimp, calamari, minced chicken, wood ear mushrooms, onions, fresh cilantro, and a spicy garlic-lime dressing.",
+      "price": 20,
+      "rating": 4.9,
+      "image": "Glass Noodle Seafood Salad (Yum Woon Sen).png"
+    },
+    {
+      "id": "salad-yum-seafood",
+      "name": "Yum Seafood Combination",
+      "description": "Zesty lemongrass-infused seafood medley of scallops, shrimp, mussels, and squid, tossed with fresh herbs in sweet-sour chili paste vinaigrette.",
+      "price": 24,
+      "rating": 4.9,
+      "image": "Yum Seafood Combination .png"
+    },
+    {
+      "id": "salad-yum-shrimp-squid",
+      "name": "Yum Shrimp or Squid",
+      "description": "Choice of poached tiger prawns or tender squid rings dressed with celery, red onions, tomatoes, coriander, and fresh chili-lime marinade.",
+      "price": 21,
+      "rating": 4.8,
+      "image": "Yum Shrimp or Squid .png"
+    }
+  ],
+  "Noodle Bar": [
+    {
+      "id": "sig-1",
+      "name": "Maha Street Pad Thai",
+      "description": "Signature stir-fried rice noodles with tamarind sauce, egg, and peanuts.",
+      "price": 24,
+      "rating": 5,
+      "image": "Maha Street Pad Thai.png"
+    },
+    {
+      "id": "noodle-omelette",
+      "name": "Pad Thai Omelette Wrap",
+      "description": "Classic Pad Thai wrapped in a thin egg omelette for a rich presentation.",
+      "price": 26,
+      "rating": 4.9,
+      "image": "Pad Thai Omelette Wrap.png"
+    },
+    {
+      "id": "noodle-drunken",
+      "name": "Midnight Drunken Noodles",
+      "description": "Wide noodles stir-fried with chili, garlic, and Thai basil.",
+      "price": 22,
+      "rating": 4.8,
+      "image": "Midnight Drunken Noodles .png"
+    },
+    {
+      "id": "noodle-padseeew",
+      "name": "Caramelized Pad See Ew",
+      "description": "Flat noodles stir-fried with egg and Chinese broccoli in a savory soy glaze.",
+      "price": 22,
+      "rating": 4.8,
+      "image": "Caramelized Pad See Ew.png"
+    },
+    {
+      "id": "noodle-padwunsen",
+      "name": "Glass Noodle Stir Fry (Pad Wun Sen)",
+      "description": "Light stir-fried glass noodles with vegetables and egg.",
+      "price": 21,
+      "rating": 4.7,
+      "image": "Glass Noodle Stir Fry (Pad Wun Sen).png"
+    },
+    {
+      "id": "sig-suki",
+      "name": "Thai Sukiyaki Stir-Fry (Suki Hang)",
+      "description": "Glass noodles stir-fried with napa cabbage, egg, and vegetables in a savory suki sauce.",
+      "price": 23,
+      "rating": 4.7,
+      "image": "Thai Sukiyaki Stir-Fry (Suki Hang).png"
+    },
+    {
+      "id": "sig-3",
+      "name": "Northern Khao Soi",
+      "description": "Coconut curry noodle soup with crispy noodles and rich broth.",
+      "price": 25,
+      "rating": 4.9,
+      "image": "Northern Khao Soi.png"
+    },
+    {
+      "id": "noodle-pho",
+      "name": "Vietnamese Pho (Beef / Chicken / Seafood)",
+      "description": "Slow-simmered broth with rice noodles, herbs, and your choice of protein.",
+      "price": 22,
+      "rating": 4.8,
+      "image": "menu_curry.png"
+    },
+    {
+      "id": "noodle-yentafo",
+      "name": "Yen Ta Fo Pink Noodle Soup",
+      "description": "Sweet and tangy Thai noodle soup with a distinctive pink broth.",
+      "price": 23,
+      "rating": 4.7,
+      "image": "menu_curry.png"
+    }
+  ],
+  "Curry Kitchen": [
+    {
+      "id": "curry-massaman",
+      "name": "Massaman Comfort Curry",
+      "description": "Mild curry with potatoes, onions, and warm spices.",
+      "price": 24,
+      "rating": 4.9,
+      "image": "menu_curry.png"
+    },
+    {
+      "id": "curry-red",
+      "name": "Red Fire Curry",
+      "description": "Coconut curry with bold red chili flavor.",
+      "price": 23,
+      "rating": 4.8,
+      "image": "menu_curry.png"
+    },
+    {
+      "id": "curry-pumpkin",
+      "name": "Red Curry with Pumpkin",
+      "description": "Rich curry served inside pumpkin for a slightly sweet finish.",
+      "price": 26,
+      "rating": 5,
+      "image": "menu_curry.png"
+    },
+    {
+      "id": "curry-green",
+      "name": "Green Herb Curry",
+      "description": "Fresh, aromatic green curry with basil and coconut milk.",
+      "price": 23,
+      "rating": 4.9,
+      "image": "menu_curry.png"
+    },
+    {
+      "id": "curry-yellow",
+      "name": "Golden Yellow Curry",
+      "description": "Mild curry with turmeric, potatoes, and vegetables.",
+      "price": 22,
+      "rating": 4.7,
+      "image": "menu_curry.png"
+    },
+    {
+      "id": "curry-panang",
+      "name": "Panang Silk Curry",
+      "description": "Thick and creamy curry with a slightly sweet, nutty flavor.",
+      "price": 24,
+      "rating": 4.9,
+      "image": "menu_curry.png"
+    },
+    {
+      "id": "curry-jungle",
+      "name": "Jungle Heat Curry",
+      "description": "Spicy, herb-forward curry without coconut milk.",
+      "price": 22,
+      "rating": 4.6,
+      "image": "menu_curry.png"
+    }
+  ],
+  "Rice & Wok": [
+    {
+      "id": "sig-basil-rice",
+      "name": "Bangkok Fire Basil Rice",
+      "description": "Spicy basil fried rice with chili and garlic.",
+      "price": 22,
+      "rating": 4.8,
+      "image": "Bangkok Fire Basil Rice.png"
+    },
+    {
+      "id": "rice-pineapple",
+      "name": "Pineapple Island Fried Rice",
+      "description": "Sweet and savory fried rice with pineapple and cashews.",
+      "price": 24,
+      "rating": 4.8,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "rice-classic",
+      "name": "Classic Thai Fried Rice",
+      "description": "Simple egg fried rice with vegetables.",
+      "price": 18,
+      "rating": 4.6,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "rice-crab",
+      "name": "Crab Butter Fried Rice",
+      "description": "Fried rice with crab meat and rich garlic butter.",
+      "price": 28,
+      "rating": 5,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "rice-curry-spiced",
+      "name": "Curry Spiced Fried Rice",
+      "description": "Fried rice infused with warm curry spices.",
+      "price": 20,
+      "rating": 4.7,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "rice-green-curry",
+      "name": "Green Curry Fried Rice",
+      "description": "Fried rice blended with green curry flavors.",
+      "price": 21,
+      "rating": 4.7,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "rice-red-curry",
+      "name": "Red Curry Fried Rice",
+      "description": "Fried rice with bold red curry seasoning.",
+      "price": 21,
+      "rating": 4.7,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "rice-kapi",
+      "name": "Kapi Umami Fried Rice",
+      "description": "Shrimp paste fried rice with deep, savory flavor.",
+      "price": 22,
+      "rating": 4.8,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "rice-hainanese",
+      "name": "Hainanese Chicken Rice",
+      "description": "Tender poached chicken served with fragrant rice and ginger sauce.",
+      "price": 23,
+      "rating": 4.8,
+      "image": "hero_dish.png"
+    }
+  ],
+  "Street Kitchen": [
+    {
+      "id": "street-hainanese",
+      "name": "Hainanese Chicken Rice",
+      "description": "Classic Southeast Asian dish with poached chicken and aromatic rice.",
+      "price": 23,
+      "rating": 4.8,
+      "image": "menu_appetizer.png"
+    },
+    {
+      "id": "street-biryani",
+      "name": "Thai Biryani",
+      "description": "Spiced rice dish layered with herbs and protein.",
+      "price": 24,
+      "rating": 4.8,
+      "image": "menu_appetizer.png"
+    },
+    {
+      "id": "sig-3",
+      "name": "Northern Khao Soi",
+      "description": "Rich coconut curry noodle soup with crispy topping.",
+      "price": 25,
+      "rating": 4.9,
+      "image": "Northern Khao Soi.png"
+    },
+    {
+      "id": "street-pho",
+      "name": "Pho (Beef / Chicken / Seafood)",
+      "description": "Light and aromatic Vietnamese noodle soup.",
+      "price": 22,
+      "rating": 4.7,
+      "image": "menu_curry.png"
+    },
+    {
+      "id": "street-yentafo",
+      "name": "Yen Ta Fo",
+      "description": "Sweet-tangy Thai noodle soup with bold flavor.",
+      "price": 23,
+      "rating": 4.7,
+      "image": "menu_curry.png"
+    }
+  ],
+  "From the Sea": [
+    {
+      "id": "sig-2",
+      "name": "Coconut Shell Seafood (Hor Mok)",
+      "description": "Steamed seafood curry in coconut custard served inside a coconut shell.",
+      "price": 42,
+      "rating": 5,
+      "image": "Coconut Shell Seafood.png"
+    },
+    {
+      "id": "sea-choochee",
+      "name": "Choo Chee Seafood Curry",
+      "description": "Rich coconut curry with shrimp, squid, and mussels.",
+      "price": 38,
+      "rating": 4.9,
+      "image": "menu_curry.png"
+    },
+    {
+      "id": "sea-salmon",
+      "name": "Salmon (Choo Chee / Garlic / Sweet Chili)",
+      "description": "Pan-seared salmon served with your choice of savory sauce.",
+      "price": 36,
+      "rating": 4.8,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "sea-whole-fish",
+      "name": "Whole Fish Selection",
+      "description": "Deep-fried whole fish served with garlic or chili-based sauces.",
+      "price": 48,
+      "rating": 4.9,
+      "image": "hero_dish.png"
+    }
+  ],
+  "ChefΓÇÖs Table": [
+    {
+      "id": "chef-lamb",
+      "name": "Lamb Chops",
+      "description": "Grilled lamb chops seasoned with Thai spices.",
+      "price": 42,
+      "rating": 4.9,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "chef-lemongrass-chicken",
+      "name": "Lemongrass Chicken",
+      "description": "Grilled chicken infused with lemongrass and herbs.",
+      "price": 28,
+      "rating": 4.8,
+      "image": "menu_appetizer.png"
+    },
+    {
+      "id": "chef-omelette",
+      "name": "Thai Style Omelette",
+      "description": "Fluffy omelette seasoned with fish sauce and herbs.",
+      "price": 18,
+      "rating": 4.6,
+      "image": "hero_dish.png"
+    }
+  ],
+  "Plant-Based": [
+    {
+      "id": "plant-som-tum",
+      "name": "Vegetarian Som Tum Thai",
+      "description": "Hand-shredded green papaya hammered with fresh lime juice, palm sugar, birdΓÇÖs eye chilies, garlic, green beans, cherry tomatoes, and roasted peanuts, dressed with mushroom soy sauce.",
+      "price": 15,
+      "rating": 4.8,
+      "image": "Green Papaya Crunch (Som Tum Thai).png"
+    },
+    {
+      "id": "plant-larb-tofu",
+      "name": "Larb Tofu Herb Salad",
+      "description": "Aromatic minced organic tofu tossed with toasted ground rice, mint, fresh coriander, scallions, shallots, and a zesty lime-chili dressing.",
+      "price": 16,
+      "rating": 4.8,
+      "image": "Northern Larb Herb Salad .png"
+    },
+    {
+      "id": "plant-garden-rolls",
+      "name": "Fresh Garden Rolls",
+      "description": "Refreshing rice paper rolls packed with crisp lettuce, cucumber, mint, sweet basil, and vermicelli, served with house peanut dipping sauce.",
+      "price": 11,
+      "rating": 4.7,
+      "image": "Fresh Garden Rolls.png"
+    },
+    {
+      "id": "plant-fried-tofu",
+      "name": "Golden Fried Tofu",
+      "description": "Crispy organic tofu cubes, golden-fried until airy, served with sweet tamarind sauce topped with crushed roasted peanuts.",
+      "price": 10,
+      "rating": 4.7,
+      "image": "Golden Fried Tofu.png"
+    },
+    {
+      "id": "plant-kana",
+      "name": "KA-NA HED HORM",
+      "description": "Chinese broccoli and mushrooms saut├⌐ed in savory sauce.",
+      "price": 18,
+      "rating": 4.8,
+      "image": "menu_appetizer.png"
+    },
+    {
+      "id": "plant-fried-rice",
+      "name": "Vegetarian Thai Fried Rice",
+      "description": "Fried rice with vegetables and soy-based seasoning.",
+      "price": 18,
+      "rating": 4.6,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "plant-basil-rice",
+      "name": "Basil Fried Rice",
+      "description": "Spicy vegetarian fried rice with basil and chili.",
+      "price": 19,
+      "rating": 4.7,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "plant-padthai",
+      "name": "Vegetarian Pad Thai",
+      "description": "Rice noodles stir-fried with vegetables and tofu.",
+      "price": 20,
+      "rating": 4.8,
+      "image": "Maha Street Pad Thai.png"
+    },
+    {
+      "id": "plant-tomkha",
+      "name": "Tom Kha (veg)",
+      "description": "Coconut soup with vegetables and herbs.",
+      "price": 18,
+      "rating": 4.8,
+      "image": "Tom kha coconut soup.png"
+    },
+    {
+      "id": "plant-tomyum",
+      "name": "Tom Yum (veg)",
+      "description": "Spicy and sour vegetable soup.",
+      "price": 18,
+      "rating": 4.8,
+      "image": "Tom Yum Fire Broth (Clear).png"
+    },
+    {
+      "id": "plant-eggplant-curry",
+      "name": "Eggplant & Tofu Curry",
+      "description": "Eggplant and tofu in a rich curry sauce.",
+      "price": 20,
+      "rating": 4.7,
+      "image": "menu_curry.png"
+    },
+    {
+      "id": "plant-choochee",
+      "name": "Choo Chee Tofu",
+      "description": "Tofu cooked in a creamy red curry sauce.",
+      "price": 21,
+      "rating": 4.7,
+      "image": "menu_curry.png"
+    },
+    {
+      "id": "plant-kheemao",
+      "name": "Tofu Khee Mao",
+      "description": "Stir-fried tofu with chili, garlic, and basil.",
+      "price": 20,
+      "rating": 4.7,
+      "image": "menu_appetizer.png"
+    }
+  ],
+  "Sweet Endings": [
+    {
+      "id": "sweet-rubies",
+      "name": "Thai Rubies in Coconut Milk (weekends)",
+      "description": "Water chestnuts served in sweet coconut milk with crushed ice.",
+      "price": 12,
+      "rating": 4.9,
+      "image": "menu_dessert.png"
+    },
+    {
+      "id": "sweet-mango-sticky",
+      "name": "Mango Sticky Rice",
+      "description": "Fresh mango served with sweet coconut sticky rice.",
+      "price": 14,
+      "rating": 5,
+      "image": "menu_dessert.png"
+    },
+    {
+      "id": "sweet-banana-sticky",
+      "name": "Banana Sticky Rice",
+      "description": "Warm sticky rice with banana and coconut.",
+      "price": 12,
+      "rating": 4.8,
+      "image": "menu_dessert.png"
+    },
+    {
+      "id": "sweet-black-rice",
+      "name": "Black Rice Mango Dessert",
+      "description": "Nutty black rice paired with fresh mango.",
+      "price": 14,
+      "rating": 4.8,
+      "image": "menu_dessert.png"
+    },
+    {
+      "id": "sweet-roti",
+      "name": "Sweet Roti",
+      "description": "Crispy Thai flatbread topped with condensed milk.",
+      "price": 10,
+      "rating": 4.7,
+      "image": "menu_dessert.png"
+    },
+    {
+      "id": "sweet-banana-honey",
+      "name": "Fried Banana with Honey",
+      "description": "Golden fried banana drizzled with honey.",
+      "price": 10,
+      "rating": 4.7,
+      "image": "menu_dessert.png"
+    },
+    {
+      "id": "sweet-cheesecake",
+      "name": "Fried Cheesecake",
+      "description": "Crispy outside with a creamy cheesecake center.",
+      "price": 12,
+      "rating": 4.8,
+      "image": "menu_dessert.png"
+    },
+    {
+      "id": "sweet-ice-cream",
+      "name": "Deep Fried Ice Cream",
+      "description": "Ice cream wrapped and fried for a hot and cold contrast.",
+      "price": 12,
+      "rating": 4.7,
+      "image": "menu_dessert.png"
+    },
+    {
+      "id": "sweet-pancakes",
+      "name": "Thai Coconut Pancakes (Kanom Krok)",
+      "description": "Bite-sized coconut rice pancakes with crispy edges and soft centers.",
+      "price": 10,
+      "rating": 4.8,
+      "image": "menu_dessert.png"
+    }
+  ],
+  "Beverages & Sides": [
+    {
+      "id": "side-jasmine",
+      "name": "Jasmine Rice",
+      "description": "Fragrant, steaming Jasmine rice.",
+      "price": 4,
+      "rating": 4.8,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "side-brown",
+      "name": "Brown Rice",
+      "description": "Healthy, fiber-rich steamed brown rice.",
+      "price": 4,
+      "rating": 4.6,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "side-sticky",
+      "name": "Sticky Rice",
+      "description": "Traditional sweet-savory sticky rice.",
+      "price": 5,
+      "rating": 4.8,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "side-noodles",
+      "name": "Steamed Noodles",
+      "description": "Freshly steamed rice ribbon noodles.",
+      "price": 4,
+      "rating": 4.7,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "side-veg",
+      "name": "Steamed Vegetables",
+      "description": "A fresh mix of seasonal steamed greens and vegetables.",
+      "price": 6,
+      "rating": 4.7,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "side-peanut",
+      "name": "Peanut Sauce",
+      "description": "Our house-made aromatic peanut dipping sauce.",
+      "price": 3,
+      "rating": 4.9,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "bev-thai-tea",
+      "name": "Thai Iced Tea",
+      "description": "Traditional sweetened Thai iced tea topped with rich cream.",
+      "price": 5,
+      "rating": 4.9,
+      "image": "menu_appetizer.png"
+    },
+    {
+      "id": "bev-boba",
+      "name": "Boba Selection",
+      "description": "Explore our rich and creamy Boba Milk Teas and fruit teas. (See Boba menu for full selection).",
+      "price": 6,
+      "rating": 4.9,
+      "image": "menu_appetizer.png"
+    }
+  ],
+  "Soups & Claypots": [
+    {
+      "id": "soup-tomyum-creamy",
+      "name": "Tom Yum Creamy Broth",
+      "description": "Vibrant, spicy-sour lemongrass broth enriched with a touch of evaporated milk, loaded with giant tiger prawns, oyster mushrooms, tomatoes, and fresh kaffir lime leaves.",
+      "price": 19,
+      "rating": 4.9,
+      "image": "Tom Yum Creamy Broth.png"
+    },
+    {
+      "id": "soup-tomyum-clear",
+      "name": "Tom Yum Fire Broth (Clear)",
+      "description": "Traditional, fiery-sharp clear hot and sour broth infused with crushed lemongrass, galangal, fresh chili, fresh lime juice, kaffir lime leaves, and wild mushrooms.",
+      "price": 18,
+      "rating": 4.8,
+      "image": "Tom Yum Fire Broth (Clear).png"
+    },
+    {
+      "id": "soup-tomkha",
+      "name": "Tom Kha Coconut Soup",
+      "description": "Silky, aromatic coconut milk broth simmered with tender chicken breast, wild mushrooms, fresh galangal, lemongrass, kaffir lime, and roasted chili oil.",
+      "price": 19,
+      "rating": 4.9,
+      "image": "Tom kha coconut soup.png"
+    },
+    {
+      "id": "soup-khao-tom",
+      "name": "Rice Comfort Soup (Khao Tom)",
+      "description": "Traditional comforting Thai rice soup cooked in a rich, savory pork bone broth with hand-rolled seasoned pork meatballs, fresh ginger, celery, and golden fried garlic.",
+      "price": 16,
+      "rating": 4.7,
+      "image": "Rice Comfort Soup (Khao Tom).png"
+    },
+    {
+      "id": "soup-hot-pot",
+      "name": "Maha Hot Pot (Seasonal)",
+      "description": "A grand communal ceramic pot bubbling with our premium herbal broth, thin-sliced ribeye beef, scallop medallions, prawns, glass noodles, and fresh morning glory.",
+      "price": 38,
+      "rating": 5,
+      "image": "Maha Hot Pot (Seasonal).png"
+    }
+  ],
+  "Vegetarian": [
+    {
+      "id": "plant-som-tum",
+      "name": "Vegetarian Som Tum Thai",
+      "description": "Hand-shredded green papaya hammered with fresh lime juice, palm sugar, birdΓÇÖs eye chilies, garlic, green beans, cherry tomatoes, and roasted peanuts, dressed with mushroom soy sauce.",
+      "price": 15,
+      "rating": 4.8,
+      "image": "Green Papaya Crunch (Som Tum Thai).png"
+    },
+    {
+      "id": "plant-larb-tofu",
+      "name": "Larb Tofu Herb Salad",
+      "description": "Aromatic minced organic tofu tossed with toasted ground rice, mint, fresh coriander, scallions, shallots, and a zesty lime-chili dressing.",
+      "price": 16,
+      "rating": 4.8,
+      "image": "Northern Larb Herb Salad .png"
+    },
+    {
+      "id": "plant-garden-rolls",
+      "name": "Fresh Garden Rolls",
+      "description": "Refreshing rice paper rolls packed with crisp lettuce, cucumber, mint, sweet basil, and vermicelli, served with house peanut dipping sauce.",
+      "price": 11,
+      "rating": 4.7,
+      "image": "Fresh Garden Rolls.png"
+    },
+    {
+      "id": "plant-fried-tofu",
+      "name": "Golden Fried Tofu",
+      "description": "Crispy organic tofu cubes, golden-fried until airy, served with sweet tamarind sauce topped with crushed roasted peanuts.",
+      "price": 10,
+      "rating": 4.7,
+      "image": "Golden Fried Tofu.png"
+    },
+    {
+      "id": "plant-kana",
+      "name": "KA-NA HED HORM",
+      "description": "Chinese broccoli and mushrooms saut├⌐ed in savory sauce.",
+      "price": 18,
+      "rating": 4.8,
+      "image": "menu_appetizer.png"
+    },
+    {
+      "id": "plant-fried-rice",
+      "name": "Vegetarian Thai Fried Rice",
+      "description": "Fried rice with vegetables and soy-based seasoning.",
+      "price": 18,
+      "rating": 4.6,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "plant-basil-rice",
+      "name": "Basil Fried Rice",
+      "description": "Spicy vegetarian fried rice with basil and chili.",
+      "price": 19,
+      "rating": 4.7,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "plant-padthai",
+      "name": "Vegetarian Pad Thai",
+      "description": "Rice noodles stir-fried with vegetables and tofu.",
+      "price": 20,
+      "rating": 4.8,
+      "image": "Maha Street Pad Thai.png"
+    },
+    {
+      "id": "plant-tomkha",
+      "name": "Tom Kha (veg)",
+      "description": "Coconut soup with vegetables and herbs.",
+      "price": 18,
+      "rating": 4.8,
+      "image": "Tom kha coconut soup.png"
+    },
+    {
+      "id": "plant-tomyum",
+      "name": "Tom Yum (veg)",
+      "description": "Spicy and sour vegetable soup.",
+      "price": 18,
+      "rating": 4.8,
+      "image": "Tom Yum Fire Broth (Clear).png"
+    },
+    {
+      "id": "plant-eggplant-curry",
+      "name": "Eggplant & Tofu Curry",
+      "description": "Eggplant and tofu in a rich curry sauce.",
+      "price": 20,
+      "rating": 4.7,
+      "image": "menu_curry.png"
+    },
+    {
+      "id": "plant-choochee",
+      "name": "Choo Chee Tofu",
+      "description": "Tofu cooked in a creamy red curry sauce.",
+      "price": 21,
+      "rating": 4.7,
+      "image": "menu_curry.png"
+    },
+    {
+      "id": "plant-kheemao",
+      "name": "Tofu Khee Mao",
+      "description": "Stir-fried tofu with chili, garlic, and basil.",
+      "price": 20,
+      "rating": 4.7,
+      "image": "menu_appetizer.png"
+    }
+  ],
+  "Dinner": [
+    {
+      "id": "app-edamame",
+      "name": "Steamed Salted Edamame",
+      "description": "Plump green soybeans steamed in their pods, tossed with coarse sea salt, offering a light, clean, and nutritious starter.",
+      "price": 8,
+      "rating": 4.7,
+      "image": "Edamame .png"
+    },
+    {
+      "id": "app-spring-rolls",
+      "name": "Crispy Spring Rolls",
+      "description": "Crispy golden wrappers filled with seasoned glass noodles, cabbage, carrots, and wood ear mushrooms, served with sweet chili sauce.",
+      "price": 12,
+      "rating": 4.8,
+      "image": "Crispy Spring Rolls (veg  shrimp  chicken).png"
+    },
+    {
+      "id": "app-maha-rolls",
+      "name": "Crunchy Maha Rolls",
+      "description": "Signature deep-fried rolls filled with premium crab meat, cream cheese, and scallions, served with a sweet-and-sour plum glaze.",
+      "price": 15,
+      "rating": 4.9,
+      "image": "Crunchy Maha Rolls.png"
+    },
+    {
+      "id": "app-firecracker-shrimp",
+      "name": "Firecracker Shrimp",
+      "description": "Jumbo prawns marinated in garlic and coriander, wrapped in crispy spring roll pastry, and served with a spicy honey-plum sauce.",
+      "price": 16,
+      "rating": 4.9,
+      "image": "Firecracker Shrimp.png"
+    },
+    {
+      "id": "app-garden-rolls",
+      "name": "Fresh Garden Rolls",
+      "description": "Refreshing rice paper rolls packed with crisp lettuce, cucumber, mint, sweet basil, and vermicelli, served with house peanut dipping sauce.",
+      "price": 11,
+      "rating": 4.7,
+      "image": "Fresh Garden Rolls.png"
+    },
+    {
+      "id": "app-fried-tofu",
+      "name": "Golden Fried Tofu",
+      "description": "Crispy organic tofu cubes, golden-fried until airy, served with sweet tamarind sauce topped with crushed roasted peanuts.",
+      "price": 10,
+      "rating": 4.7,
+      "image": "Golden Fried Tofu.png"
+    },
+    {
+      "id": "app-crab-bites",
+      "name": "Maha Crispy Crab Bites",
+      "description": "Bite-sized crispy pouches stuffed with blue crab meat, cream cheese, and Thai spices, served with a roasted chili garlic dip.",
+      "price": 14,
+      "rating": 4.8,
+      "image": "Maha Crispy Crab Bites.png"
+    },
+    {
+      "id": "app-dumplings",
+      "name": "Pan-Seared Dumplings",
+      "description": "Handmade dumplings with seasoned chicken, pork, or vegetables, pan-seared until bottom is crispy, served with ginger-soy vinegar.",
+      "price": 13,
+      "rating": 4.8,
+      "image": "Pan-Seared Dumplings (chicken  pork  veg).png"
+    },
+    {
+      "id": "app-shrimp-toast",
+      "name": "Shrimp Toast",
+      "description": "Crispy toasted brioche topped with a savory minced shrimp spread and white sesame seeds, served with sweet cucumber relish.",
+      "price": 14,
+      "rating": 4.8,
+      "image": "Shrimp Toast .png"
+    },
+    {
+      "id": "app-satay-skewers",
+      "name": "Street Satay Skewers",
+      "description": "Tender flame-grilled skewers of marinated chicken or tofu, served with signature creamy peanut sauce and fresh cucumber pickle.",
+      "price": 14,
+      "rating": 4.9,
+      "image": "Street Satay Skewers (chicken  spicy chicken ≡ƒî╢∩╕Å  tofu).png"
+    },
+    {
+      "id": "app-vietnamese-rolls",
+      "name": "Vietnamese Fresh Rolls",
+      "description": "Traditional summer rolls with delicate rice paper, steamed shrimp, pork, fresh mint, and lettuce, paired with rich hoisin peanut sauce.",
+      "price": 12,
+      "rating": 4.8,
+      "image": "Vietnamese Fresh Rolls.png"
+    },
+    {
+      "id": "salad-som-tum",
+      "name": "Green Papaya Crunch (Som Tum Thai)",
+      "description": "Hand-shredded green papaya hammered with fresh lime juice, palm sugar, birdΓÇÖs eye chilies, garlic, green beans, cherry tomatoes, and roasted peanuts.",
+      "price": 15,
+      "rating": 4.8,
+      "image": "Green Papaya Crunch (Som Tum Thai).png"
+    },
+    {
+      "id": "salad-som-tum-poo",
+      "name": "Som Tum Poo",
+      "description": "Authentic Isan-style papaya salad containing salted black crab for a rich, deeply savory umami punch, mixed with fresh herbs and spices.",
+      "price": 17,
+      "rating": 4.7,
+      "image": "Som Tum Poo.png"
+    },
+    {
+      "id": "salad-som-tum-poo-plara",
+      "name": "Som Tum Poo Plara",
+      "description": "Traditional street-style green papaya salad loaded with salted black crab and house-fermented fish sauce (Plara) for the ultimate bold flavor.",
+      "price": 18,
+      "rating": 4.8,
+      "image": "Som Tum Poo Plara.png"
+    },
+    {
+      "id": "salad-larb",
+      "name": "Northern Larb Herb Salad",
+      "description": "Aromatic minced chicken, pork, or tofu salad tossed with toasted ground rice, mint, fresh coriander, scallions, shallots, and lime-chili dressing.",
+      "price": 16,
+      "rating": 4.8,
+      "image": "Northern Larb Herb Salad .png"
+    },
+    {
+      "id": "salad-yum-woon-sen",
+      "name": "Glass Noodle Seafood Salad (Yum Woon Sen)",
+      "description": "Vibrant glass noodles tossed with jumbo shrimp, calamari, minced chicken, wood ear mushrooms, onions, fresh cilantro, and a spicy garlic-lime dressing.",
+      "price": 20,
+      "rating": 4.9,
+      "image": "Glass Noodle Seafood Salad (Yum Woon Sen).png"
+    },
+    {
+      "id": "salad-yum-seafood",
+      "name": "Yum Seafood Combination",
+      "description": "Zesty lemongrass-infused seafood medley of scallops, shrimp, mussels, and squid, tossed with fresh herbs in sweet-sour chili paste vinaigrette.",
+      "price": 24,
+      "rating": 4.9,
+      "image": "Yum Seafood Combination .png"
+    },
+    {
+      "id": "salad-yum-shrimp-squid",
+      "name": "Yum Shrimp or Squid",
+      "description": "Choice of poached tiger prawns or tender squid rings dressed with celery, red onions, tomatoes, coriander, and fresh chili-lime marinade.",
+      "price": 21,
+      "rating": 4.8,
+      "image": "Yum Shrimp or Squid .png"
+    },
+    {
+      "id": "soup-tomyum-creamy",
+      "name": "Tom Yum Creamy Broth",
+      "description": "Vibrant, spicy-sour lemongrass broth enriched with a touch of evaporated milk, loaded with giant tiger prawns, oyster mushrooms, tomatoes, and fresh kaffir lime leaves.",
+      "price": 19,
+      "rating": 4.9,
+      "image": "Tom Yum Creamy Broth.png"
+    },
+    {
+      "id": "soup-tomyum-clear",
+      "name": "Tom Yum Fire Broth (Clear)",
+      "description": "Traditional, fiery-sharp clear hot and sour broth infused with crushed lemongrass, galangal, fresh chili, fresh lime juice, kaffir lime leaves, and wild mushrooms.",
+      "price": 18,
+      "rating": 4.8,
+      "image": "Tom Yum Fire Broth (Clear).png"
+    },
+    {
+      "id": "soup-tomkha",
+      "name": "Tom Kha Coconut Soup",
+      "description": "Silky, aromatic coconut milk broth simmered with tender chicken breast, wild mushrooms, fresh galangal, lemongrass, kaffir lime, and roasted chili oil.",
+      "price": 19,
+      "rating": 4.9,
+      "image": "Tom kha coconut soup.png"
+    },
+    {
+      "id": "soup-khao-tom",
+      "name": "Rice Comfort Soup (Khao Tom)",
+      "description": "Traditional comforting Thai rice soup cooked in a rich, savory pork bone broth with hand-rolled seasoned pork meatballs, fresh ginger, celery, and golden fried garlic.",
+      "price": 16,
+      "rating": 4.7,
+      "image": "Rice Comfort Soup (Khao Tom).png"
+    },
+    {
+      "id": "soup-hot-pot",
+      "name": "Maha Hot Pot (Seasonal)",
+      "description": "A grand communal ceramic pot bubbling with our premium herbal broth, thin-sliced ribeye beef, scallop medallions, prawns, glass noodles, and fresh morning glory.",
+      "price": 38,
+      "rating": 5,
+      "image": "Maha Hot Pot (Seasonal).png"
+    },
+    {
+      "id": "sig-1",
+      "name": "Maha Street Pad Thai",
+      "description": "Signature stir-fried rice noodles with tamarind sauce, egg, and peanuts.",
+      "price": 24,
+      "rating": 5,
+      "image": "Maha Street Pad Thai.png"
+    },
+    {
+      "id": "noodle-omelette",
+      "name": "Pad Thai Omelette Wrap",
+      "description": "Classic Pad Thai wrapped in a thin egg omelette for a rich presentation.",
+      "price": 26,
+      "rating": 4.9,
+      "image": "Pad Thai Omelette Wrap.png"
+    },
+    {
+      "id": "noodle-drunken",
+      "name": "Midnight Drunken Noodles",
+      "description": "Wide noodles stir-fried with chili, garlic, and Thai basil.",
+      "price": 22,
+      "rating": 4.8,
+      "image": "Midnight Drunken Noodles .png"
+    },
+    {
+      "id": "noodle-padseeew",
+      "name": "Caramelized Pad See Ew",
+      "description": "Flat noodles stir-fried with egg and Chinese broccoli in a savory soy glaze.",
+      "price": 22,
+      "rating": 4.8,
+      "image": "Caramelized Pad See Ew.png"
+    },
+    {
+      "id": "noodle-padwunsen",
+      "name": "Glass Noodle Stir Fry (Pad Wun Sen)",
+      "description": "Light stir-fried glass noodles with vegetables and egg.",
+      "price": 21,
+      "rating": 4.7,
+      "image": "Glass Noodle Stir Fry (Pad Wun Sen).png"
+    },
+    {
+      "id": "sig-suki",
+      "name": "Thai Sukiyaki Stir-Fry (Suki Hang)",
+      "description": "Glass noodles stir-fried with napa cabbage, egg, and vegetables in a savory suki sauce.",
+      "price": 23,
+      "rating": 4.7,
+      "image": "Thai Sukiyaki Stir-Fry (Suki Hang).png"
+    },
+    {
+      "id": "sig-3",
+      "name": "Northern Khao Soi",
+      "description": "Coconut curry noodle soup with crispy noodles and rich broth.",
+      "price": 25,
+      "rating": 4.9,
+      "image": "Northern Khao Soi.png"
+    },
+    {
+      "id": "noodle-pho",
+      "name": "Vietnamese Pho (Beef / Chicken / Seafood)",
+      "description": "Slow-simmered broth with rice noodles, herbs, and your choice of protein.",
+      "price": 22,
+      "rating": 4.8,
+      "image": "menu_curry.png"
+    },
+    {
+      "id": "noodle-yentafo",
+      "name": "Yen Ta Fo Pink Noodle Soup",
+      "description": "Sweet and tangy Thai noodle soup with a distinctive pink broth.",
+      "price": 23,
+      "rating": 4.7,
+      "image": "menu_curry.png"
+    },
+    {
+      "id": "curry-massaman",
+      "name": "Massaman Comfort Curry",
+      "description": "Mild curry with potatoes, onions, and warm spices.",
+      "price": 24,
+      "rating": 4.9,
+      "image": "menu_curry.png"
+    },
+    {
+      "id": "curry-red",
+      "name": "Red Fire Curry",
+      "description": "Coconut curry with bold red chili flavor.",
+      "price": 23,
+      "rating": 4.8,
+      "image": "menu_curry.png"
+    },
+    {
+      "id": "curry-pumpkin",
+      "name": "Red Curry with Pumpkin",
+      "description": "Rich curry served inside pumpkin for a slightly sweet finish.",
+      "price": 26,
+      "rating": 5,
+      "image": "menu_curry.png"
+    },
+    {
+      "id": "curry-green",
+      "name": "Green Herb Curry",
+      "description": "Fresh, aromatic green curry with basil and coconut milk.",
+      "price": 23,
+      "rating": 4.9,
+      "image": "menu_curry.png"
+    },
+    {
+      "id": "curry-yellow",
+      "name": "Golden Yellow Curry",
+      "description": "Mild curry with turmeric, potatoes, and vegetables.",
+      "price": 22,
+      "rating": 4.7,
+      "image": "menu_curry.png"
+    },
+    {
+      "id": "curry-panang",
+      "name": "Panang Silk Curry",
+      "description": "Thick and creamy curry with a slightly sweet, nutty flavor.",
+      "price": 24,
+      "rating": 4.9,
+      "image": "menu_curry.png"
+    },
+    {
+      "id": "curry-jungle",
+      "name": "Jungle Heat Curry",
+      "description": "Spicy, herb-forward curry without coconut milk.",
+      "price": 22,
+      "rating": 4.6,
+      "image": "menu_curry.png"
+    },
+    {
+      "id": "sig-basil-rice",
+      "name": "Bangkok Fire Basil Rice",
+      "description": "Spicy basil fried rice with chili and garlic.",
+      "price": 22,
+      "rating": 4.8,
+      "image": "Bangkok Fire Basil Rice.png"
+    },
+    {
+      "id": "rice-pineapple",
+      "name": "Pineapple Island Fried Rice",
+      "description": "Sweet and savory fried rice with pineapple and cashews.",
+      "price": 24,
+      "rating": 4.8,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "rice-classic",
+      "name": "Classic Thai Fried Rice",
+      "description": "Simple egg fried rice with vegetables.",
+      "price": 18,
+      "rating": 4.6,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "rice-crab",
+      "name": "Crab Butter Fried Rice",
+      "description": "Fried rice with crab meat and rich garlic butter.",
+      "price": 28,
+      "rating": 5,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "rice-curry-spiced",
+      "name": "Curry Spiced Fried Rice",
+      "description": "Fried rice infused with warm curry spices.",
+      "price": 20,
+      "rating": 4.7,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "rice-green-curry",
+      "name": "Green Curry Fried Rice",
+      "description": "Fried rice blended with green curry flavors.",
+      "price": 21,
+      "rating": 4.7,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "rice-red-curry",
+      "name": "Red Curry Fried Rice",
+      "description": "Fried rice with bold red curry seasoning.",
+      "price": 21,
+      "rating": 4.7,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "rice-kapi",
+      "name": "Kapi Umami Fried Rice",
+      "description": "Shrimp paste fried rice with deep, savory flavor.",
+      "price": 22,
+      "rating": 4.8,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "rice-hainanese",
+      "name": "Hainanese Chicken Rice",
+      "description": "Tender poached chicken served with fragrant rice and ginger sauce.",
+      "price": 23,
+      "rating": 4.8,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "street-hainanese",
+      "name": "Hainanese Chicken Rice",
+      "description": "Classic Southeast Asian dish with poached chicken and aromatic rice.",
+      "price": 23,
+      "rating": 4.8,
+      "image": "menu_appetizer.png"
+    },
+    {
+      "id": "street-biryani",
+      "name": "Thai Biryani",
+      "description": "Spiced rice dish layered with herbs and protein.",
+      "price": 24,
+      "rating": 4.8,
+      "image": "menu_appetizer.png"
+    },
+    {
+      "id": "street-pho",
+      "name": "Pho (Beef / Chicken / Seafood)",
+      "description": "Light and aromatic Vietnamese noodle soup.",
+      "price": 22,
+      "rating": 4.7,
+      "image": "menu_curry.png"
+    },
+    {
+      "id": "street-yentafo",
+      "name": "Yen Ta Fo",
+      "description": "Sweet-tangy Thai noodle soup with bold flavor.",
+      "price": 23,
+      "rating": 4.7,
+      "image": "menu_curry.png"
+    },
+    {
+      "id": "sig-2",
+      "name": "Coconut Shell Seafood (Hor Mok)",
+      "description": "Steamed seafood curry in coconut custard served inside a coconut shell.",
+      "price": 42,
+      "rating": 5,
+      "image": "Coconut Shell Seafood.png"
+    },
+    {
+      "id": "sea-choochee",
+      "name": "Choo Chee Seafood Curry",
+      "description": "Rich coconut curry with shrimp, squid, and mussels.",
+      "price": 38,
+      "rating": 4.9,
+      "image": "menu_curry.png"
+    },
+    {
+      "id": "sea-salmon",
+      "name": "Salmon (Choo Chee / Garlic / Sweet Chili)",
+      "description": "Pan-seared salmon served with your choice of savory sauce.",
+      "price": 36,
+      "rating": 4.8,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "sea-whole-fish",
+      "name": "Whole Fish Selection",
+      "description": "Deep-fried whole fish served with garlic or chili-based sauces.",
+      "price": 48,
+      "rating": 4.9,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "chef-lamb",
+      "name": "Lamb Chops",
+      "description": "Grilled lamb chops seasoned with Thai spices.",
+      "price": 42,
+      "rating": 4.9,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "chef-lemongrass-chicken",
+      "name": "Lemongrass Chicken",
+      "description": "Grilled chicken infused with lemongrass and herbs.",
+      "price": 28,
+      "rating": 4.8,
+      "image": "menu_appetizer.png"
+    },
+    {
+      "id": "chef-omelette",
+      "name": "Thai Style Omelette",
+      "description": "Fluffy omelette seasoned with fish sauce and herbs.",
+      "price": 18,
+      "rating": 4.6,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "plant-som-tum",
+      "name": "Vegetarian Som Tum Thai",
+      "description": "Hand-shredded green papaya hammered with fresh lime juice, palm sugar, birdΓÇÖs eye chilies, garlic, green beans, cherry tomatoes, and roasted peanuts, dressed with mushroom soy sauce.",
+      "price": 15,
+      "rating": 4.8,
+      "image": "Green Papaya Crunch (Som Tum Thai).png"
+    },
+    {
+      "id": "plant-larb-tofu",
+      "name": "Larb Tofu Herb Salad",
+      "description": "Aromatic minced organic tofu tossed with toasted ground rice, mint, fresh coriander, scallions, shallots, and a zesty lime-chili dressing.",
+      "price": 16,
+      "rating": 4.8,
+      "image": "Northern Larb Herb Salad .png"
+    },
+    {
+      "id": "plant-garden-rolls",
+      "name": "Fresh Garden Rolls",
+      "description": "Refreshing rice paper rolls packed with crisp lettuce, cucumber, mint, sweet basil, and vermicelli, served with house peanut dipping sauce.",
+      "price": 11,
+      "rating": 4.7,
+      "image": "Fresh Garden Rolls.png"
+    },
+    {
+      "id": "plant-fried-tofu",
+      "name": "Golden Fried Tofu",
+      "description": "Crispy organic tofu cubes, golden-fried until airy, served with sweet tamarind sauce topped with crushed roasted peanuts.",
+      "price": 10,
+      "rating": 4.7,
+      "image": "Golden Fried Tofu.png"
+    },
+    {
+      "id": "plant-kana",
+      "name": "KA-NA HED HORM",
+      "description": "Chinese broccoli and mushrooms saut├⌐ed in savory sauce.",
+      "price": 18,
+      "rating": 4.8,
+      "image": "menu_appetizer.png"
+    },
+    {
+      "id": "plant-fried-rice",
+      "name": "Vegetarian Thai Fried Rice",
+      "description": "Fried rice with vegetables and soy-based seasoning.",
+      "price": 18,
+      "rating": 4.6,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "plant-basil-rice",
+      "name": "Basil Fried Rice",
+      "description": "Spicy vegetarian fried rice with basil and chili.",
+      "price": 19,
+      "rating": 4.7,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "plant-padthai",
+      "name": "Vegetarian Pad Thai",
+      "description": "Rice noodles stir-fried with vegetables and tofu.",
+      "price": 20,
+      "rating": 4.8,
+      "image": "Maha Street Pad Thai.png"
+    },
+    {
+      "id": "plant-tomkha",
+      "name": "Tom Kha (veg)",
+      "description": "Coconut soup with vegetables and herbs.",
+      "price": 18,
+      "rating": 4.8,
+      "image": "Tom kha coconut soup.png"
+    },
+    {
+      "id": "plant-tomyum",
+      "name": "Tom Yum (veg)",
+      "description": "Spicy and sour vegetable soup.",
+      "price": 18,
+      "rating": 4.8,
+      "image": "Tom Yum Fire Broth (Clear).png"
+    },
+    {
+      "id": "plant-eggplant-curry",
+      "name": "Eggplant & Tofu Curry",
+      "description": "Eggplant and tofu in a rich curry sauce.",
+      "price": 20,
+      "rating": 4.7,
+      "image": "menu_curry.png"
+    },
+    {
+      "id": "plant-choochee",
+      "name": "Choo Chee Tofu",
+      "description": "Tofu cooked in a creamy red curry sauce.",
+      "price": 21,
+      "rating": 4.7,
+      "image": "menu_curry.png"
+    },
+    {
+      "id": "plant-kheemao",
+      "name": "Tofu Khee Mao",
+      "description": "Stir-fried tofu with chili, garlic, and basil.",
+      "price": 20,
+      "rating": 4.7,
+      "image": "menu_appetizer.png"
+    },
+    {
+      "id": "sweet-rubies",
+      "name": "Thai Rubies in Coconut Milk (weekends)",
+      "description": "Water chestnuts served in sweet coconut milk with crushed ice.",
+      "price": 12,
+      "rating": 4.9,
+      "image": "menu_dessert.png"
+    },
+    {
+      "id": "sweet-mango-sticky",
+      "name": "Mango Sticky Rice",
+      "description": "Fresh mango served with sweet coconut sticky rice.",
+      "price": 14,
+      "rating": 5,
+      "image": "menu_dessert.png"
+    },
+    {
+      "id": "sweet-banana-sticky",
+      "name": "Banana Sticky Rice",
+      "description": "Warm sticky rice with banana and coconut.",
+      "price": 12,
+      "rating": 4.8,
+      "image": "menu_dessert.png"
+    },
+    {
+      "id": "sweet-black-rice",
+      "name": "Black Rice Mango Dessert",
+      "description": "Nutty black rice paired with fresh mango.",
+      "price": 14,
+      "rating": 4.8,
+      "image": "menu_dessert.png"
+    },
+    {
+      "id": "sweet-roti",
+      "name": "Sweet Roti",
+      "description": "Crispy Thai flatbread topped with condensed milk.",
+      "price": 10,
+      "rating": 4.7,
+      "image": "menu_dessert.png"
+    },
+    {
+      "id": "sweet-banana-honey",
+      "name": "Fried Banana with Honey",
+      "description": "Golden fried banana drizzled with honey.",
+      "price": 10,
+      "rating": 4.7,
+      "image": "menu_dessert.png"
+    },
+    {
+      "id": "sweet-cheesecake",
+      "name": "Fried Cheesecake",
+      "description": "Crispy outside with a creamy cheesecake center.",
+      "price": 12,
+      "rating": 4.8,
+      "image": "menu_dessert.png"
+    },
+    {
+      "id": "sweet-ice-cream",
+      "name": "Deep Fried Ice Cream",
+      "description": "Ice cream wrapped and fried for a hot and cold contrast.",
+      "price": 12,
+      "rating": 4.7,
+      "image": "menu_dessert.png"
+    },
+    {
+      "id": "sweet-pancakes",
+      "name": "Thai Coconut Pancakes (Kanom Krok)",
+      "description": "Bite-sized coconut rice pancakes with crispy edges and soft centers.",
+      "price": 10,
+      "rating": 4.8,
+      "image": "menu_dessert.png"
+    },
+    {
+      "id": "side-jasmine",
+      "name": "Jasmine Rice",
+      "description": "Fragrant, steaming Jasmine rice.",
+      "price": 4,
+      "rating": 4.8,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "side-brown",
+      "name": "Brown Rice",
+      "description": "Healthy, fiber-rich steamed brown rice.",
+      "price": 4,
+      "rating": 4.6,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "side-sticky",
+      "name": "Sticky Rice",
+      "description": "Traditional sweet-savory sticky rice.",
+      "price": 5,
+      "rating": 4.8,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "side-noodles",
+      "name": "Steamed Noodles",
+      "description": "Freshly steamed rice ribbon noodles.",
+      "price": 4,
+      "rating": 4.7,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "side-veg",
+      "name": "Steamed Vegetables",
+      "description": "A fresh mix of seasonal steamed greens and vegetables.",
+      "price": 6,
+      "rating": 4.7,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "side-peanut",
+      "name": "Peanut Sauce",
+      "description": "Our house-made aromatic peanut dipping sauce.",
+      "price": 3,
+      "rating": 4.9,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "bev-thai-tea",
+      "name": "Thai Iced Tea",
+      "description": "Traditional sweetened Thai iced tea topped with rich cream.",
+      "price": 5,
+      "rating": 4.9,
+      "image": "menu_appetizer.png"
+    },
+    {
+      "id": "bev-boba",
+      "name": "Boba Selection",
+      "description": "Explore our rich and creamy Boba Milk Teas and fruit teas. (See Boba menu for full selection).",
+      "price": 6,
+      "rating": 4.9,
+      "image": "menu_appetizer.png"
+    }
+  ],
+  "Lunch": [
+    {
+      "id": "lunch-experience",
+      "name": "Maha Lunch Experience (Mon-Fri)",
+      "description": "A curated multi-course midday feast. Includes your choice of one appetizer, one soup or salad, and one signature entr├⌐e (curry, noodle, or wok rice dish).",
+      "price": 34,
+      "rating": 5,
+      "image": "menu_appetizer.png",
+      "tags": [
+        "Lunch Special",
+        "Multi-Course"
+      ]
+    },
+    {
+      "id": "lunch-pad-thai",
+      "name": "Lunch Maha Street Pad Thai",
+      "description": "Midday portion of our signature stir-fried rice noodles with tamarind sauce, egg, and peanuts.",
+      "price": 18,
+      "rating": 4.9,
+      "image": "Maha Street Pad Thai.png"
+    },
+    {
+      "id": "lunch-drunken-noodles",
+      "name": "Lunch Midnight Drunken Noodles",
+      "description": "Wide noodles stir-fried with chili, garlic, and Thai basil.",
+      "price": 17,
+      "rating": 4.8,
+      "image": "menu_appetizer.png"
+    },
+    {
+      "id": "lunch-pad-see-ew",
+      "name": "Lunch Caramelized Pad See Ew",
+      "description": "Flat noodles stir-fried with egg and Chinese broccoli in a savory soy glaze.",
+      "price": 17,
+      "rating": 4.8,
+      "image": "menu_appetizer.png"
+    },
+    {
+      "id": "lunch-massaman",
+      "name": "Lunch Massaman Comfort Curry",
+      "description": "Mild curry with potatoes, onions, and warm spices.",
+      "price": 18,
+      "rating": 4.9,
+      "image": "menu_curry.png"
+    },
+    {
+      "id": "lunch-yellow-curry",
+      "name": "Lunch Golden Yellow Curry",
+      "description": "Mild curry with turmeric, potatoes, and vegetables.",
+      "price": 17,
+      "rating": 4.7,
+      "image": "menu_curry.png"
+    },
+    {
+      "id": "lunch-basil-rice",
+      "name": "Lunch Bangkok Fire Basil Rice",
+      "description": "Spicy basil fried rice with chili and garlic.",
+      "price": 17,
+      "rating": 4.8,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "lunch-pineapple-rice",
+      "name": "Lunch Pineapple Island Fried Rice",
+      "description": "Sweet and savory fried rice with pineapple and cashews.",
+      "price": 18,
+      "rating": 4.8,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "lunch-classic-rice",
+      "name": "Lunch Classic Thai Fried Rice",
+      "description": "Simple egg fried rice with vegetables.",
+      "price": 15,
+      "rating": 4.6,
+      "image": "hero_dish.png"
+    },
+    {
+      "id": "lunch-lemongrass-chicken",
+      "name": "Lunch Lemongrass Chicken",
+      "description": "Grilled chicken infused with lemongrass and herbs.",
+      "price": 22,
+      "rating": 4.8,
+      "image": "menu_appetizer.png"
+    },
+    {
+      "id": "lunch-veg-padthai",
+      "name": "Lunch Vegetarian Pad Thai",
+      "description": "Rice noodles stir-fried with vegetables and tofu.",
+      "price": 16,
+      "rating": 4.8,
+      "image": "Maha Street Pad Thai.png"
+    }
+  ]
+}
