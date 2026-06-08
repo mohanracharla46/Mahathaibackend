@@ -1,0 +1,93 @@
+# Render Infrastructure Blueprint for Maha Thai
+# To deploy, go to Render -> Blueprints -> New Blueprint Instance -> Link your repository.
+services:
+  # -------------------------------------------------------------
+  # Backend: Laravel (Docker Web Service)
+  # -------------------------------------------------------------
+  - type: web
+    name: mahathai-backend
+    env: docker
+    plan: free
+    region: oregon # Render free tier is available in Oregon/Frankfurt
+    branch: main
+    # Health check path for auto-recovery
+    healthCheckPath: /api/menu-categories
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: APP_DEBUG
+        value: "false"
+      - key: APP_KEY
+        generateValue: true # Generates a secret value, but Laravel requires base64: prefix (see post-deploy steps)
+      - key: APP_URL
+        fromService:
+          type: web
+          name: mahathai-backend
+          property: host
+      - key: FRONTEND_URL
+        fromService:
+          type: static
+          name: mahathai-frontend
+          property: host
+      # Database environment variables linked to the PostgreSQL database
+      - key: DB_CONNECTION
+        value: pgsql
+      - key: DB_HOST
+        fromDatabase:
+          name: mahathai-db
+          property: host
+      - key: DB_PORT
+        fromDatabase:
+          name: mahathai-db
+          property: port
+      - key: DB_DATABASE
+        fromDatabase:
+          name: mahathai-db
+          property: database
+      - key: DB_USERNAME
+        fromDatabase:
+          name: mahathai-db
+          property: username
+      - key: DB_PASSWORD
+        fromDatabase:
+          name: mahathai-db
+          property: password
+      - key: RUN_MIGRATIONS
+        value: "true"
+      - key: LOG_CHANNEL
+        value: stderr
+      - key: SESSION_DRIVER
+        value: database
+      - key: CACHE_STORE
+        value: database
+
+  # -------------------------------------------------------------
+  # Frontend: React (Vite Static Site)
+  # -------------------------------------------------------------
+  - type: static
+    name: mahathai-frontend
+    env: static
+    plan: free
+    region: oregon
+    buildCommand: npm install && npm run build
+    publishPath: dist # Vite output directory
+    routes:
+      # SPA fallback routing rule to support React Router deep links
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    envVars:
+      - key: VITE_API_URL
+        fromService:
+          type: web
+          name: mahathai-backend
+          property: host
+
+# -------------------------------------------------------------
+# Database: Render PostgreSQL
+# -------------------------------------------------------------
+databases:
+  - name: mahathai-db
+    plan: free
+    region: oregon
+    ipAllowList: [] # empty means only allow services in the same account (internal security)
