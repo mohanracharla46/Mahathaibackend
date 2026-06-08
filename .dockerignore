@@ -3,7 +3,6 @@
 .gitattributes
 .env
 .env.backup
-.env.production
 .env.development
 .env.staging
 vendor/

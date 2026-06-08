@@ -5,16 +5,16 @@ namespace Database\Seeders;
 use App\Models\MenuCategory;
 use App\Models\MenuItem;
 use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\Schema;
 
 class MenuSeeder extends Seeder
 {
     public function run(): void
     {
-        Schema::disableForeignKeyConstraints();
-        MenuItem::truncate();
-        MenuCategory::truncate();
-        Schema::enableForeignKeyConstraints();
+        // Only seed if no categories exist (idempotent - safe to call multiple times)
+        if (MenuCategory::count() > 0) {
+            $this->command->info('Menu already seeded (' . MenuCategory::count() . ' categories). Skipping.');
+            return;
+        }
 
         $path = database_path('menu_data.json');
         if (!file_exists($path)) {

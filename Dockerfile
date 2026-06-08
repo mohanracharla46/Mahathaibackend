@@ -52,8 +52,12 @@ RUN mkdir -p storage/framework/cache/data \
     && chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache \
     && chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache
 
-# Expose port (Apache default is overridden in entrypoint)
+# Copy the startup entrypoint script
+COPY scripts/start.sh /usr/local/bin/start.sh
+RUN chmod +x /usr/local/bin/start.sh
+
+# Expose port 80 (Render maps its PORT to this)
 EXPOSE 80
 
-# Start the application using PHP's built-in server as requested
-CMD ["sh", "-c", "mkdir -p database && touch database/database.sqlite && chmod -R 777 database && if [ -z \"$APP_KEY\" ] && ! grep -q \"^APP_KEY=base64:\" .env; then php artisan key:generate --force; fi && php artisan migrate --force && php artisan db:seed --force && php artisan config:clear && php artisan cache:clear && php artisan serve --host=0.0.0.0 --port=$PORT"]
+# Use the entrypoint script to run migrations and start Apache
+CMD ["/usr/local/bin/start.sh"]

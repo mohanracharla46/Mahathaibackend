@@ -1,5 +1,5 @@
 # Render Infrastructure Blueprint for Maha Thai
-# To deploy, go to Render -> Blueprints -> New Blueprint Instance -> Link your repository.
+# To deploy: Render -> Blueprints -> New Blueprint Instance -> Link your repository.
 services:
   # -------------------------------------------------------------
   # Backend: Laravel (Docker Web Service)
@@ -8,7 +8,7 @@ services:
     name: mahathai-backend
     env: docker
     plan: free
-    region: oregon # Render free tier is available in Oregon/Frankfurt
+    region: oregon
     branch: main
     # Health check path for auto-recovery
     healthCheckPath: /api/menu-categories
@@ -17,18 +17,14 @@ services:
         value: production
       - key: APP_DEBUG
         value: "false"
+      # IMPORTANT: Set this manually in Render Dashboard -> Environment
+      # Run: php artisan key:generate --show  to get a valid key
       - key: APP_KEY
-        generateValue: true # Generates a secret value, but Laravel requires base64: prefix (see post-deploy steps)
+        value: base64:dpCeGTmeBEGgwZqACcqc4IL4ftuK+mngvzKYnPRA8d4=
       - key: APP_URL
-        fromService:
-          type: web
-          name: mahathai-backend
-          property: host
+        value: https://mahathaibackend.onrender.com
       - key: FRONTEND_URL
-        fromService:
-          type: static
-          name: mahathai-frontend
-          property: host
+        value: https://mahathai-1.onrender.com
       # Database environment variables linked to the PostgreSQL database
       - key: DB_CONNECTION
         value: pgsql
@@ -56,9 +52,13 @@ services:
         value: "true"
       - key: LOG_CHANNEL
         value: stderr
+      - key: LOG_LEVEL
+        value: info
       - key: SESSION_DRIVER
         value: database
       - key: CACHE_STORE
+        value: database
+      - key: QUEUE_CONNECTION
         value: database
 
   # -------------------------------------------------------------
@@ -70,7 +70,7 @@ services:
     plan: free
     region: oregon
     buildCommand: npm install && npm run build
-    publishPath: dist # Vite output directory
+    publishPath: dist
     routes:
       # SPA fallback routing rule to support React Router deep links
       - type: rewrite
@@ -78,10 +78,7 @@ services:
         destination: /index.html
     envVars:
       - key: VITE_API_URL
-        fromService:
-          type: web
-          name: mahathai-backend
-          property: host
+        value: https://mahathaibackend.onrender.com
 
 # -------------------------------------------------------------
 # Database: Render PostgreSQL
@@ -90,4 +87,4 @@ databases:
   - name: mahathai-db
     plan: free
     region: oregon
-    ipAllowList: [] # empty means only allow services in the same account (internal security)
+    ipAllowList: [] # empty = only allow services in the same account
