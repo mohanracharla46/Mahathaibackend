@@ -7,6 +7,7 @@ return [
 
     'allowed_origins' => [
         env('FRONTEND_URL', 'http://localhost:5173'),
+        'https://mahathai-1.onrender.com',
     ],
 
     'allowed_origins_patterns' => [],
