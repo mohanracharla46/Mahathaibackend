@@ -1,0 +1,53 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+
+class Order extends Model
+{
+    protected $fillable = [
+        'user_id',
+        'full_name',
+        'phone_number',
+        'order_type',
+        'service_type',
+        'pickup_time',
+        'delivery_address',
+        'suite_apt',
+        'order_items',
+        'promo_code_id',
+        'subtotal',
+        'discount_amount',
+        'total_amount',
+        'status',
+    ];
+
+    protected $casts = [
+        'subtotal' => 'decimal:2',
+        'discount_amount' => 'decimal:2',
+        'total_amount' => 'decimal:2',
+    ];
+
+    public function user(): BelongsTo
+    {
+        return $this->belongsTo(User::class);
+    }
+
+    public function promoCode(): BelongsTo
+    {
+        return $this->belongsTo(PromoCode::class);
+    }
+
+    public function items(): HasMany
+    {
+        return $this->hasMany(OrderItem::class);
+    }
+
+    public function rewardTransactions(): HasMany
+    {
+        return $this->hasMany(RewardTransaction::class);
+    }
+}
