@@ -20,6 +20,17 @@ if [ -z "$APP_KEY" ] && ! grep -q "^APP_KEY=base64:" /var/www/html/.env; then
     php artisan key:generate --force
 fi
 
+# Create SQLite database file if connection is SQLite and database is missing
+if [ "$DB_CONNECTION" = "sqlite" ] || [ -z "$DB_CONNECTION" ]; then
+    DB_DATABASE_FILE="/var/www/html/database/database.sqlite"
+    if [ ! -f "$DB_DATABASE_FILE" ]; then
+        echo "Creating SQLite database file at $DB_DATABASE_FILE..."
+        touch "$DB_DATABASE_FILE"
+        chown www-data:www-data "$DB_DATABASE_FILE"
+        chmod 664 "$DB_DATABASE_FILE"
+    fi
+fi
+
 # Wait for database if host is specified (useful during cold boots)
 if [ -n "$DB_HOST" ]; then
   echo "Allowing database ($DB_HOST) 5 seconds to initialize..."
