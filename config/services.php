@@ -35,4 +35,21 @@ return [
         ],
     ],
 
+    'uber_direct' => [
+        'enabled' => env('UBER_DIRECT_ENABLED', false),
+        'base_url' => env('UBER_DIRECT_BASE_URL', 'https://api.uber.com'),
+        'oauth_url' => env('UBER_DIRECT_OAUTH_URL', 'https://login.uber.com/oauth/v2/token'),
+        'customer_id' => env('UBER_DIRECT_CUSTOMER_ID'),
+        'client_id' => env('UBER_DIRECT_CLIENT_ID'),
+        'client_secret' => env('UBER_DIRECT_CLIENT_SECRET'),
+        'scope' => env('UBER_DIRECT_SCOPE', 'eats.deliveries'),
+        'webhook_secret' => env('UBER_DIRECT_WEBHOOK_SECRET'),
+        'pickup_name' => env('UBER_DIRECT_PICKUP_NAME', 'Maha Thai'),
+        'pickup_business_name' => env('UBER_DIRECT_PICKUP_BUSINESS_NAME', 'Maha Thai'),
+        'pickup_phone' => env('UBER_DIRECT_PICKUP_PHONE'),
+        'pickup_address' => env('UBER_DIRECT_PICKUP_ADDRESS'),
+        'pickup_notes' => env('UBER_DIRECT_PICKUP_NOTES'),
+        'external_store_id' => env('UBER_DIRECT_EXTERNAL_STORE_ID'),
+        'country' => env('UBER_DIRECT_COUNTRY', 'US'),
+    ],
 ];

@@ -12,6 +12,7 @@ class Order extends Model
         'user_id',
         'full_name',
         'phone_number',
+        'email',
         'order_type',
         'service_type',
         'pickup_time',
@@ -23,12 +24,23 @@ class Order extends Model
         'discount_amount',
         'total_amount',
         'status',
+        'uber_delivery_id',
+        'uber_delivery_status',
+        'uber_tracking_url',
+        'uber_delivery_fee',
+        'uber_delivery_response',
+        'uber_delivery_error',
+        'uber_delivery_dispatched_at',
     ];
 
     protected $casts = [
+        'order_items' => 'array',
         'subtotal' => 'decimal:2',
         'discount_amount' => 'decimal:2',
         'total_amount' => 'decimal:2',
+        'uber_delivery_fee' => 'integer',
+        'uber_delivery_response' => 'array',
+        'uber_delivery_dispatched_at' => 'datetime',
     ];
 
     public function user(): BelongsTo

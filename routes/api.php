@@ -16,6 +16,7 @@ use App\Http\Controllers\Api\PromoCodeController;
 use App\Http\Controllers\Api\ReservationController;
 use App\Http\Controllers\Api\RewardController;
 use App\Http\Controllers\Api\UserController;
+use App\Http\Controllers\Api\UberDirectWebhookController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('users', [UserController::class, 'index']);
@@ -39,6 +40,12 @@ Route::post('cart-items', [CartItemController::class, 'store']);
 
 Route::get('orders', [OrderController::class, 'index']);
 Route::post('orders', [OrderController::class, 'store']);
+Route::patch('orders/{order}', [OrderController::class, 'update']);
+Route::delete('orders/{order}', [OrderController::class, 'destroy']);
+Route::post('orders/{order}/dispatch', [OrderController::class, 'dispatch']);
+Route::post('orders/{order}/dispatch/retry', [OrderController::class, 'retryDispatch']);
+Route::post('orders/{order}/delivery/cancel', [OrderController::class, 'cancelDelivery']);
+Route::post('uber-direct/webhook', UberDirectWebhookController::class);
 
 Route::get('rewards', [RewardController::class, 'index']);
 Route::get('rewards/user/{user}', [RewardController::class, 'showForUser']);

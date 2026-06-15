@@ -77,6 +77,12 @@ if [ "$RUN_MIGRATIONS" = "true" ] || [ -z "$RUN_MIGRATIONS" ]; then
     php artisan db:seed --force
 fi
 
+# Run queued Uber dispatch jobs in the same service container.
+if [ "$QUEUE_CONNECTION" != "sync" ]; then
+    echo "Starting Laravel queue worker..."
+    su -s /bin/sh www-data -c "php artisan queue:work --sleep=3 --tries=4 --timeout=60 --max-time=3600" &
+fi
+
 # Start Apache in the foreground
 echo "Starting Apache web server..."
 exec apache2-foreground

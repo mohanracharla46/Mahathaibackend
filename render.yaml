@@ -60,6 +60,20 @@ services:
         value: database
       - key: QUEUE_CONNECTION
         value: database
+      - key: UBER_DIRECT_ENABLED
+        value: "true"
+      - key: UBER_DIRECT_CUSTOMER_ID
+        sync: false
+      - key: UBER_DIRECT_CLIENT_ID
+        sync: false
+      - key: UBER_DIRECT_CLIENT_SECRET
+        sync: false
+      - key: UBER_DIRECT_WEBHOOK_SECRET
+        sync: false
+      - key: UBER_DIRECT_PICKUP_PHONE
+        sync: false
+      - key: UBER_DIRECT_PICKUP_ADDRESS
+        sync: false
 
   # -------------------------------------------------------------
   # Frontend: React (Vite Static Site)
